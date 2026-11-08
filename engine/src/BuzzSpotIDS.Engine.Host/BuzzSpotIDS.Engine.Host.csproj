@@ -8,6 +8,13 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14"/>
+        <PackageReference Include="Yarp.ReverseProxy" Version="2.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BuzzSpotIDS.Engine.BusinessLogic\BuzzSpotIDS.Engine.BusinessLogic.csproj" />
+      <ProjectReference Include="..\BuzzSpotIDS.Engine.Contracts\BuzzSpotIDS.Engine.Contracts.csproj" />
+      <ProjectReference Include="..\BuzzSpotIDS.Engine.DataAccess\BuzzSpotIDS.Engine.DataAccess.csproj" />
     </ItemGroup>
 
 </Project>

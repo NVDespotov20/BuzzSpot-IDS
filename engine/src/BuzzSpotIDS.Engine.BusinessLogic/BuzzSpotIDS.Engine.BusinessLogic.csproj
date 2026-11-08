@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BuzzSpotIDS.Engine.Contracts\BuzzSpotIDS.Engine.Contracts.csproj" />
+      <ProjectReference Include="..\BuzzSpotIDS.Engine.DataAccess\BuzzSpotIDS.Engine.DataAccess.csproj" />
+    </ItemGroup>
+
 </Project>
