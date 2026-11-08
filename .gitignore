@@ -23,6 +23,8 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+.idea/
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
@@ -39,8 +41,7 @@ ScaffoldingReadMe.txt
 # dotenv environment variables file
 .env
 
-# Others
-~$*
+# Others ~$*
 *~
 CodeCoverage/
 

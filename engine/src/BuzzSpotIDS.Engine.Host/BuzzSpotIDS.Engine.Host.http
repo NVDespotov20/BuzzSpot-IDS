@@ -1,0 +1,6 @@
+@BuzzSpotIDS.Engine.Host_HostAddress = http://localhost:5140
+
+GET {{BuzzSpotIDS.Engine.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
