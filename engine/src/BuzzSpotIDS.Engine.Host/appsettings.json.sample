@@ -1,0 +1,12 @@
+{
+  "ConnectionStrings": {
+    "PostgreSQL": "Host=localhost;Port=5432;Database=buzzspot_ids;Username=buzzspot;Password=SSup3rStr0ngPa55w0rd!"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+}

@@ -24,6 +24,7 @@ bld/
 [Ll]ogs/
 
 .idea/
+*.sln.iml
 
 # .NET Core
 project.lock.json
@@ -40,6 +41,13 @@ ScaffoldingReadMe.txt
 
 # dotenv environment variables file
 .env
+.env.*
+!.env.sample
+
+appsettings.json
+appsettings.*.json
+!appsettings.json.sample
+!appsettings.*.json.sample
 
 # Others ~$*
 *~

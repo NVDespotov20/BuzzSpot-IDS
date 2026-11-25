@@ -1,3 +1,6 @@
+using BuzzSpotIDS.Engine.DataAccess.Context;
+using Microsoft.EntityFrameworkCore;
+
 namespace BuzzSpotIDS.Engine.Host;
 
 public class Program
@@ -7,6 +10,9 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
+        builder.Services.AddDbContext<EngineDbContext>(options =>
+            options.UseNpgsql(
+                builder.Configuration.GetConnectionString("PostgreSQL")));
 
         builder.Services.AddControllers();
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
