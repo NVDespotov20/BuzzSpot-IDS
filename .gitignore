@@ -44,10 +44,10 @@ ScaffoldingReadMe.txt
 .env.*
 !.env.sample
 
-appsettings.json
-appsettings.*.json
-!appsettings.json.sample
-!appsettings.*.json.sample
+*/appsettings.json
+*/appsettings.*.json
+!*/appsettings.json.sample
+!*/appsettings.*.json.sample
 
 # Others ~$*
 *~
